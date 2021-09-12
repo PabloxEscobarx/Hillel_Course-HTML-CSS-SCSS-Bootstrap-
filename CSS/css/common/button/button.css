@@ -1,0 +1,14 @@
+.banner form button {
+    background-color: #5094f2;
+    font-size: var(--text_button);
+    font-weight: 400;
+    border-radius: 3px;
+    color: var(--banner_color);
+    padding: 8px 0;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.banner form button img {
+    padding-top: 5px;
+}

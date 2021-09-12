@@ -1,0 +1,83 @@
+.team {
+    padding: 80px 0;
+    .container {
+        .card {
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+            position: relative;
+            &:hover {
+                .card-body {
+                    .card-title {
+                        background-color: #383838;
+                    }
+                }
+                .card_images {
+                    background-color: #00a99d;
+                    div {
+                        opacity: 1;
+                    }
+                }
+            }
+            padding: 0;
+            .card_images {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #8a8a8a;
+                padding: 80px 0;
+                div {
+                    opacity: 0;
+                    a {
+                        width: 70%;
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+            .card-body {
+                position: relative;
+                .card-title {
+                    border-radius: 5px;
+                    background-color: #00a99d;
+                    padding: 12px 5px;
+                    position: absolute;
+                    top: -18%;
+                    left: 27%;
+                    font-size: 12px;
+                    line-height: 1.2;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: #e4e4e4;
+                }
+                .card-text {
+                    padding-bottom: 10px;
+                    font-size: var(--fz-xs);
+                    line-height: 22px;
+                    font-weight: 500;
+                    color: #606060;
+                    display: inline-block;
+                    border-bottom: 1px solid #606060;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: var(--fz-ss);
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #aaaaaa;
+                }
+                .phone,
+                .mail {
+                    div {
+                        max-width: 11%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

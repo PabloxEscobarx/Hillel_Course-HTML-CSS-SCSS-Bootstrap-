@@ -1,0 +1,12 @@
+.slider_images {
+    @include bgcolor(#333333);
+    padding: 50px 0;
+    .container {
+        .row {
+            .slider {
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

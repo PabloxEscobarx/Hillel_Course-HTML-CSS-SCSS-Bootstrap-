@@ -1,0 +1,12 @@
+footer {
+    border-top: 1px solid #d6d5d5;
+    text-align: center;
+    padding: 35px 0;
+}
+
+footer a {
+    font-size: var(--text_s);
+    line-height: 36px;
+    font-weight: 400;
+    color: var(--shoping_color_second);
+}

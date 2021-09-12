@@ -1,0 +1,17 @@
+@media(max-width:1200px) {
+    .prices {
+        .container {
+            .card {
+                margin: 0 0 60px 0;
+                .price {
+                    p {
+                        padding-right: 25px;
+                    }
+                }
+                .logo {
+                    left: 35%;
+                }
+            }
+        }
+    }
+}

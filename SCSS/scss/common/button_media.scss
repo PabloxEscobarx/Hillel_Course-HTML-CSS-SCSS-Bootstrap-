@@ -1,0 +1,116 @@
+@media (max-width:$width_pc) {
+    .registration {
+        button {
+            padding: 20px 0;
+            width: 96%;
+        }
+    }
+    .organisation_left_side {
+        form {
+            button {
+                padding: 10px 31px;
+            }
+        }
+    }
+    .services_left_side {
+        form {
+            button {
+                padding: 10px 31px;
+            }
+        }
+    }
+    .email {
+        button {
+            margin-left: 22px;
+            padding: 10px 31px;
+        }
+    }
+}
+
+@media (max-width:$width_tablet) {
+    .registration {
+        button {
+            padding: 20px 0;
+            width: 100%;
+        }
+    }
+    .organisation_left_side {
+        form {
+            display: flex;
+            justify-content: center;
+            button {
+                padding: 10px;
+                width: 45%;
+            }
+        }
+    }
+    .services_left_side {
+        form {
+            padding-bottom: 20px;
+            button {
+                padding: 10px;
+                width: 45%;
+            }
+        }
+    }
+    .mailing {
+        .container {
+            .mailing_container {
+                .email {
+                    form {
+                        @extend %display_block;
+                        button {
+                            margin-left: 0;
+                            padding: 10px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$width_mobile) {
+    .registration {
+        button {
+            font-size: $button_text_media;
+            padding: 20px 0;
+            width: 100%;
+        }
+    }
+    .organisation_left_side {
+        form {
+            button {
+                padding: 10px;
+                width: 45%;
+                font-size: $button_text_media;
+            }
+        }
+    }
+    .services_left_side {
+        form {
+            padding-bottom: 20px;
+            button {
+                padding: 10px;
+                width: 45%;
+                font-size: $button_text_media;
+            }
+        }
+    }
+    .mailing {
+        .container {
+            .mailing_container {
+                .email {
+                    form {
+                        button {
+                            font-size: $button_text_media;
+                            padding: 10px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

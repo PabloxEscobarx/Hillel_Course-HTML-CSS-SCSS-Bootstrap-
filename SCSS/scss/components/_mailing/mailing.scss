@@ -1,0 +1,40 @@
+.mailing {
+    padding: 130px 0;
+    margin-bottom: 200px;
+    background-color: $mailing_bg_color;
+    .container {
+        .mailing_container {
+            .email {
+                form {
+                    @extend %display_center;
+                    input {
+                        padding: 25px 0 25px 20px;
+                        border-radius: 5px;
+                        width: 46%;
+                        background-color: #ffffff;
+                    }
+                }
+            }
+            .mailing_info {
+                padding-bottom: 60px;
+                text-align: center;
+                h4 {
+                    opacity: $visible_text;
+                    font-size: $text_size_XL;
+                    @extend %line;
+                    font-weight: $weight_L;
+                    color: $mailing_color_text;
+                    letter-spacing: 0.025em;
+                    padding-bottom: 30px;
+                }
+                p {
+                    opacity: $visible_text;
+                    font-size: $text_size_M;
+                    @extend %line;
+                    font-weight: $weight_S;
+                    color: $mailing_color_text;
+                }
+            }
+        }
+    }
+}

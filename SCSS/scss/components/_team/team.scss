@@ -1,0 +1,129 @@
+.team {
+    padding-bottom: 110px;
+    .container {
+        .team_info {
+            position: relative;
+            padding-bottom: 70px;
+            h3 {
+                @extend %opacity;
+                font-size: $text_size_XL;
+                line-height: 1.2;
+                font-weight: $weight_L;
+                text-transform: uppercase;
+                letter-spacing: 0.01em;
+                @extend %main_color;
+                padding-bottom: 40px;
+            }
+            p {
+                width: 39%;
+                padding-left: 10px;
+                @extend %opacity;
+                font-size: $text_size_M;
+                @extend %line;
+                font-weight: $weight_S;
+                @extend %main_color;
+                padding-bottom: 30px;
+            }
+            .border_team {
+                position: absolute;
+                width: 12%;
+                left: 0%;
+                border-bottom: 2px solid $brd_color;
+            }
+        }
+        .team_container {
+            display: flex;
+            .team_left {
+                width: 44%;
+                .banner_team {
+                    max-width: 96%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .team_menu {
+                padding: 0 0 120px 9px;
+                ul {
+                    display: flex;
+                    li {
+                        padding: 0 30px 0 0;
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        a {
+                            &:hover {
+                                color: #ff2d2d;
+                            }
+                            @extend %opacity;
+                            font-size: $text_size_L;
+                            @extend %line;
+                            font-weight: $weight_S;
+                            font-style: italic;
+                            letter-spacing: 0.05em;
+                            @extend %main_color;
+                        }
+                    }
+                }
+            }
+            .team_right {
+                .team_right_info {
+                    padding: 0 0 40px 7px;
+                }
+                h3 {
+                    @extend %opacity;
+                    font-size: $text_size_ml;
+                    line-height: 1.2;
+                    font-weight: $weight_M;
+                    text-transform: uppercase;
+                    letter-spacing: 0.01em;
+                    @extend %main_color;
+                    padding-bottom: 35px;
+                }
+                p {
+                    @extend %opacity;
+                    font-size: $text_size_M;
+                    @extend %line;
+                    font-weight: $weight_S;
+                    @extend %main_color;
+                }
+                .photo {
+                    max-width: 100%;
+                    display: flex;
+                    p {
+                        padding-top: 7px;
+                        font-size: $text_size_M;
+                        line-height: 1.2;
+                        font-weight: $weight_M;
+                        text-transform: uppercase;
+                        letter-spacing: 0.01em;
+                        color: $team_color_text_second;
+                    }
+                    .photo_wrapper {
+                        position: relative;
+                        &:hover .Description_photo {
+                            display: block;
+                        }
+                        img {
+                            padding: 0 3px;
+                            width: 100%;
+                        }
+                        .Description_photo {
+                            display: none;
+                            position: absolute;
+                            bottom: 0;
+                            left: 3%;
+                            width: 95%;
+                            padding: 5px 0;
+                            text-align: center;
+                            background-color: #575654;
+                            p {
+                                color: #f5f0dd;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

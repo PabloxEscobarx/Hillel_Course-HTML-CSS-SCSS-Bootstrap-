@@ -1,0 +1,43 @@
+.map {
+    padding: 80px 0;
+    @include bgimage (url(../img/map.png));
+    background-size: cover;
+    .container {
+        .row {
+            .map_info {
+                form {
+                    background-color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    width: 40%;
+                    border-radius: 5px;
+                    input {
+                        border: 1px solid black;
+                        margin-bottom: 20px;
+                        padding: 15px 5px;
+                        border-radius: 5px;
+                        font-style: italic;
+                    }
+                    textarea {
+                        margin-bottom: 20px;
+                        padding: 15px 5px 80px 5px;
+                        border-radius: 5px;
+                        border: 1px solid black;
+                        font-style: italic;
+                        resize: none;
+                    }
+                    button {
+                        padding: 10px 5px;
+                        border-radius: 5px;
+                        background-color: #00a99d;
+                        color: #e4e4e4;
+                        border-radius: 5px;
+                        font-style: italic;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}

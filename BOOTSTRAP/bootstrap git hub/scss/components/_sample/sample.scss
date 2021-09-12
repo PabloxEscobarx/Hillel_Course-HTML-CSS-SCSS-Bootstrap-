@@ -1,0 +1,41 @@
+.sample {
+    padding: 80px 0;
+    .container-fluid {
+        .row {
+            .card {
+                &:hover {
+                    background-color: #00a99d;
+                    .card_body {
+                        opacity: 1;
+                    }
+                }
+                border: 1px solid white;
+                background-color: #8a8a8a;
+                padding: 40px;
+                .card_body {
+                    opacity: 0;
+                    .card-title {
+                        padding-bottom: 10px;
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                    .card-subtitle {
+                        h5 {
+                            font-size: var(--fz-ss);
+                            line-height: 1.2;
+                            font-weight: 800;
+                            color: #e4e4e4;
+                        }
+                        p {
+                            font-size: var(--fz-xs);
+                            line-height: 22px;
+                            font-weight: 500;
+                            color: #e4e4e4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+footer {
+    padding: 30px 0;
+    background-color: $footer_bg_color;
+    .footer_container {
+        display: flex;
+        justify-content: space-between;
+        .footer_left {
+            p {
+                font-size: $text_size_M;
+                @extend %line;
+                font-weight: $weight_S;
+                color: $footer_color_text;
+            }
+        }
+    }
+    .footer_right {
+        ul {
+            display: flex;
+            li:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+    }
+}

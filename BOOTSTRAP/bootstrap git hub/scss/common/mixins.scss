@@ -1,0 +1,12 @@
+@mixin bgimage($property) {
+    background-image: ($property);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin bgcolor($color) {
+    background-color: ($color);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

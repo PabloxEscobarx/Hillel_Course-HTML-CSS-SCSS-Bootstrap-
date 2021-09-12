@@ -1,0 +1,52 @@
+@media (max-width: $width_pc) {
+    header {
+        padding: 20px 0 80px 0;
+        .header_container {
+            menu {
+                li {
+                    padding: 20px;
+                    a {
+                        font-size: $text_media_S;
+                        font-weight: $weight_L;
+                        letter-spacing: 0.0055em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$width_tablet) {
+    header {
+        padding: 20px 0 70px 0;
+        .header_container {
+            menu {
+                li {
+                    padding: 15px;
+                    a {
+                        font-size: $text_media_S;
+                        font-weight: $weight_L;
+                        letter-spacing: 0.0055em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$width_mobile) {
+    header {
+        .header_container {
+            nav {
+                menu {
+                    li {
+                        padding: 10px;
+                        a {
+                            font-size: $text_media;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.banner .container .banner_wrapper {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iphone,
+.banner_info {
+    max-width: 50%;
+}
+
+.banner {
+    padding: 40px 0 25px 0;
+    background-image: url(../../../img/background/background-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_wrapper div .iphone {
+    max-width: 100%;
+}
+
+div .iphone img {
+    width: 100%;
+}
+
+.banner_info {
+    margin: auto 0;
+}
+
+.banner_info h1 {
+    font-size: var(--text_xl);
+    line-height: 44px;
+    font-weight: 400;
+    color: var(--banner_color);
+    padding-bottom: 20px;
+}
+
+.banner_info p {
+    font-size: var(--text_l);
+    line-height: 44px;
+    font-weight: 400;
+    width: 66%;
+    color: var(--banner_color);
+    padding-bottom: 30px;
+}

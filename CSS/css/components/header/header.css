@@ -1,0 +1,33 @@
+header {
+    padding: 25px 0;
+}
+
+header .container .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header_wrapper ul {
+    display: flex;
+}
+
+.container .header_wrapper ul li {
+    padding: 0 30px 0 0;
+}
+
+.header_wrapper ul li a:hover {
+    border-bottom: 2px solid #5094f2;
+    padding-bottom: 45px;
+}
+
+.header_wrapper ul li:last-child {
+    padding-right: 0;
+}
+
+.header_wrapper ul li a {
+    font-size: var(--text_m);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #6c6c6c;
+    transition: .3s;
+}

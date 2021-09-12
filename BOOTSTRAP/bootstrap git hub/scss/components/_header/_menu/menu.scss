@@ -1,0 +1,27 @@
+header {
+    .navbar {
+        padding: 30px;
+        .container-fluid {
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        &:hover {
+                            background-color: #00a99d;
+                            border-radius: 5px;
+                            .nav-link {
+                                color: #ffff;
+                            }
+                        }
+                        .nav-link {
+                            font-size: var(--fz-s);
+                            line-height: 1.2;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                            color: #606060;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

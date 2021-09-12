@@ -1,0 +1,36 @@
+.startuprr {
+    padding: 25px 0;
+    background-color: #383838;
+    .container {
+        .row {
+            .startuprr_logo {
+                margin: 0 auto;
+                .logo_footer {
+                    padding-bottom: 60px;
+                    width: 15%;
+                    img {
+                        display: flex;
+                        margin: 0 auto;
+                        max-width: 100%;
+                    }
+                }
+            }
+            .startuprr_menu {
+                margin: 0 auto;
+                ul {
+                    list-style: none;
+                    li {
+                        display: flex;
+                        a {
+                            text-decoration: none;
+                            width: 65%;
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+%button {
+    border-radius: 5px;
+    line-height: 34px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+}
+
+%line {
+    line-height: 28px;
+}
+
+%opacity {
+    opacity: 0.8;
+}
+
+%main_color {
+    color: #000000
+}
+
+%display_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%display_center {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:$width_tablet) {
+    %display_block {
+        display: block;
+    }
+    %text {
+        font-size: $text_media_mobile_third;
+        line-height: $height_mobile;
+    }
+}
+
+@media(max-width:$width_mobile) {}

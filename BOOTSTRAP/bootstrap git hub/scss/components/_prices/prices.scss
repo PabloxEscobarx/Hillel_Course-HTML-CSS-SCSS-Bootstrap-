@@ -1,0 +1,78 @@
+.prices {
+    padding: 80px 0;
+    .container {
+        .card {
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover .logo {
+                h3 {
+                    background-color: #00a99d;
+                }
+            }
+            position: relative;
+            .bb {
+                border-top: 1px solid #ebebeb;
+                width: 85%;
+                margin: 0 auto;
+            }
+            .logo {
+                top: -5%;
+                left: 18%;
+                position: absolute;
+                h3 {
+                    background-color: #383838;
+                    border-radius: 5px;
+                    font-size: var(--fz-xs);
+                    line-height: 1.2;
+                    padding: 15px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: #e4e4e4;
+                }
+            }
+            .price {
+                p {
+                    position: relative;
+                    font-size: var(--fz-ll);
+                    line-height: 1.2;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: #383838;
+                    .point {
+                        position: absolute;
+                        top: 79%;
+                        left: 47%;
+                        width: 11px;
+                        height: 11px;
+                        background-color: #383838;
+                        transform: rotate(45deg);
+                        border-radius: 3px;
+                    }
+                    .grey {
+                        font-size: var(--fz-ss);
+                        line-height: 1.2;
+                        font-weight: 500;
+                        color: #8a8a8a;
+                    }
+                    sup {
+                        position: absolute;
+                        top: 9%;
+                        left: 46%;
+                        font-size: var(--fz-ss);
+                        line-height: 1.2;
+                        font-weight: 800;
+                        color: #383838;
+                    }
+                }
+            }
+            .info {
+                font-size: var(--fz-s);
+                line-height: 40px;
+                font-weight: 500;
+                color: #8a8a8a;
+            }
+        }
+    }
+}

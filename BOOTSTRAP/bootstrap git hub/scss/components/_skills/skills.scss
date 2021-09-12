@@ -1,0 +1,84 @@
+.skills {
+    position: relative;
+    padding: 100px;
+    @include bgcolor(#383838);
+    .logo_skills {
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #00a99d;
+            border-radius: 3px;
+            top: -3%;
+            left: 48%;
+            position: absolute;
+            transform: rotate(45deg);
+        }
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-image: url(../img/icons/skills_logo.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 75%;
+            top: -3%;
+            left: 48%;
+            position: absolute;
+        }
+    }
+    .container {
+        .skill {
+            padding: 0 0 45px 0;
+        }
+        .row {
+            .bg75 {
+                @include bgimage(url(../img/backgrounds/shapes75.png))
+            }
+            .bg92 {
+                @include bgimage(url(../img/backgrounds/shapes92.png))
+            }
+            .bg68 {
+                @include bgimage(url(../img/backgrounds/shapes68.png))
+            }
+            .bg100 {
+                @include bgimage(url(../img/backgrounds/shapes100.png))
+            }
+            .bg83 {
+                @include bgimage(url(../img/backgrounds/shapes83.png))
+            }
+            .bg50 {
+                @include bgimage(url(../img/backgrounds/shapes50.png))
+            }
+            .number {
+                width: 100%;
+                height: 133%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 15px;
+                margin-right: 80px;
+                p {
+                    margin-bottom: 0;
+                    text-align: center;
+                    color: #e4e4e4;
+                    font-size: var(--fz-xl);
+                    font-weight: 600;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .text {
+                text-align: center;
+                font-size: var(--fz-s);
+                line-height: 16px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: #8a8a8a;
+            }
+        }
+    }
+}

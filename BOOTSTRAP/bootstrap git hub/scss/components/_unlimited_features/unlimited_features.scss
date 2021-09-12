@@ -1,0 +1,16 @@
+.unlimited_features {
+    @include bgcolor(#00a99d);
+    padding: 35px 0;
+    .container {
+        .row {
+            p {
+                font-size: var(--fz-ss);
+                line-height: 2.2;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: #e4e4e4;
+                margin: 0;
+            }
+        }
+    }
+}

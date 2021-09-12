@@ -1,0 +1,35 @@
+header {
+    padding: 30px 0 100px 0;
+    .header_container {
+        menu {
+            @extend %opacity;
+            background-color: #000000;
+            @extend %display_center;
+            li {
+                padding: 30px;
+                &:first-child {
+                    @include color($header_bg_color_menu)
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+                a {
+                    font-size: $text_size_S;
+                    @extend %line;
+                    font-weight: $weight_L;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    color: $header_color_text;
+                }
+            }
+        }
+    }
+}
+
+header,
+.our_organisation {
+    background-color: $header_bg_color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}

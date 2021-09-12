@@ -1,0 +1,57 @@
+.banner {
+    @include bgcolor (#8a8a8a);
+    padding: 245px 0;
+    .container {
+        .title {
+            .row {
+                .banner_title {
+                    p:not(.banner_title_bg) {
+                        text-transform: uppercase;
+                        font-size: var(--fz-l);
+                        font-weight: 800;
+                        margin: 0 0 0 0;
+                        padding: 0;
+                    }
+                    .banner_title_bg {
+                        display: inline;
+                        span {
+                            color: #00a99d;
+                        }
+                        border-radius: 5px;
+                        background-color: #333333;
+                        font-size: 13px;
+                        color: #cfcfcf;
+                    }
+                    h2 {
+                        font-size: var(--fz-m);
+                        margin-bottom: -14px;
+                        padding: 0;
+                    }
+                }
+            }
+            .banner_sub_title {
+                p {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    padding: 0 5px;
+                    font-size: 26px;
+                    color: black;
+                    span {
+                        color: #00a99d;
+                    }
+                }
+                div {
+                    padding-top: 6px;
+                }
+            }
+            .svg_arrow_down {
+                a {
+                    color: #00a99d;
+                    svg {
+                        width: 15%;
+                    }
+                }
+            }
+        }
+    }
+}

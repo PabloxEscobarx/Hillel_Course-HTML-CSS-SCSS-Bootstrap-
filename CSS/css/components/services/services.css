@@ -1,0 +1,49 @@
+.services {
+    padding: 50px 0 90px 0;
+}
+
+.services .container .services_container {
+    display: flex;
+}
+
+.capabilities {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.capabilities_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.capabilities .pencil {
+    background-color: #5094f2;
+}
+
+.capabilities .pc {
+    background-color: #d94748;
+}
+
+.capabilities .shop {
+    background-color: #ebbb11;
+}
+
+.capabilities h2 {
+    font-size: var(--text_m);
+    line-height: 44px;
+    font-weight: 400;
+    color: var(--services_color);
+}
+
+.capabilities p {
+    padding: 0 9px;
+    font-size: var(--text_xs);
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--services_color_second);
+}

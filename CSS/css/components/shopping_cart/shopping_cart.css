@@ -1,0 +1,40 @@
+.shopping_cart {
+    padding-bottom: 50px;
+}
+
+.shopping_cart_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping_photo,
+.shopping_cart_info {
+    max-width: 50%;
+}
+
+.shopping_photo div {
+    padding-top: 32px;
+}
+
+.shopping_cart .container h3 {
+    font-size: var(--text_xl);
+    line-height: 44px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: var( --shoping_color);
+}
+
+.shopping_cart_info h4 {
+    font-size: var(--text_l);
+    line-height: 44px;
+    font-weight: 400;
+    color: var(--shoping_color);
+    padding-bottom: 20px;
+}
+
+.shopping_cart_info p {
+    font-size: var(--text_s);
+    line-height: 36px;
+    font-weight: 400;
+    color: var(--shoping_color_second);
+}

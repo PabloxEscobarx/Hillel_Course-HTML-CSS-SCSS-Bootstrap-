@@ -1,0 +1,94 @@
+.registration {
+    padding-bottom: 110px;
+    .container {
+        .registration_info {
+            position: relative;
+            padding-bottom: 70px;
+            max-width: 60%;
+            h4 {
+                @extend %opacity;
+                font-size: $text_size_XL;
+                line-height: 1.2;
+                font-weight: $weight_L;
+                text-transform: uppercase;
+                letter-spacing: 0.01em;
+                @extend %main_color;
+                padding-bottom: 50px;
+            }
+            p {
+                @extend %opacity;
+                font-size: $text_size_M;
+                @extend %line;
+                font-weight: $weight_S;
+                @extend %main_color;
+                padding-bottom: 50px;
+            }
+            .border_registration {
+                position: absolute;
+                width: 18%;
+                left: 0%;
+                border-bottom: 2px solid #ff2d2d;
+            }
+        }
+        .registration_container {
+            display: flex;
+            justify-content: space-between;
+            .registration_right,
+            .registration_left {
+                width: 50%;
+            }
+            .registration_form {
+                margin-right: 10px;
+                .input_form {
+                    display: flex;
+                    justify-content: space-between;
+                    input {
+                        margin: 0 0 45px 0;
+                        padding: 20px;
+                        width: 45%;
+                        background-color: #f6f2f2;
+                        border-radius: 5px;
+                    }
+                }
+                textarea {
+                    resize: none;
+                    width: 100%;
+                    background-color: #f6f2f2;
+                    border-radius: 5px;
+                    padding: 20px 0 205px 20px;
+                    margin-bottom: 40px;
+                }
+                .mail_input {
+                    margin-right: 0;
+                }
+            }
+        }
+        .contact_info {
+            text-align: center;
+            width: 80%;
+            height: 100%;
+            background-color: $contact_bg_color;
+            margin: auto auto;
+            h4 {
+                @extend %opacity;
+                font-size: $text_size_L;
+                line-height: 34px;
+                font-weight: $weight_L;
+                text-transform: uppercase;
+                letter-spacing: 0.025em;
+                color: $contact_color_text;
+                padding-bottom: 40px;
+            }
+            a,
+            p,
+            address {
+                @extend %opacity;
+                font-size: $text_size_M;
+                @extend %line;
+                font-weight: $weight_S;
+                color: $contact_color_text;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}

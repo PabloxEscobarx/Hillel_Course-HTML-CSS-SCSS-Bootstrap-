@@ -1,0 +1,47 @@
+.organisation_left_side {
+    form {
+        button {
+            font-size: $text_size_L;
+            padding: 10px 31px;
+            @extend %button;
+            color: #ffffff;
+            background-color: #ff2d2d;
+        }
+    }
+}
+
+.services_left_side {
+    form {
+        button {
+            font-size: $text_size_L;
+            padding: 10px 31px;
+            @extend %button;
+            color: #ff2d2d;
+            border: 2px solid #ff0000;
+        }
+    }
+}
+
+.email {
+    button {
+        font-size: $text_size_L;
+        margin-left: 22px;
+        @extend %button;
+        padding: 10px 31px;
+        background-color: #ff2d2d;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}
+
+.registration {
+    button {
+        font-size: $text_size_L;
+        padding: 20px 0;
+        width: 100%;
+        background-color: #ff3b3b;
+        @extend %button;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}

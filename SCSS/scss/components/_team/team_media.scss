@@ -1,0 +1,183 @@
+@media(max-width:$width_pc) {
+    .team {
+        padding-bottom: 90px;
+        .container {
+            .team_info {
+                padding-bottom: 60px;
+                h3 {
+                    font-size: $text_media_XL;
+                    padding-bottom: 30px;
+                }
+                p {
+                    font-size: $text_media_M;
+                    padding-bottom: 30px;
+                }
+            }
+            .team_container {
+                .team_left {
+                    width: 60%;
+                }
+                .team_menu {
+                    padding-left: 9px;
+                    padding-bottom: 88px;
+                    ul {
+                        li {
+                            padding: 0 30px 0 0;
+                            a {
+                                font-size: $text_size_L;
+                            }
+                        }
+                    }
+                }
+                .team_right {
+                    .team_right_info {
+                        padding: 0 0 40px 7px;
+                    }
+                    h3 {
+                        font-size: $text_size_ml;
+                        padding-bottom: 30px;
+                    }
+                    p {
+                        font-size: $text_size_M;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$width_tablet) {
+    .team {
+        .team_right,
+        .team_left {
+            max-width: 100%;
+        }
+        padding-bottom: 90px;
+        .container {
+            .team_info {
+                text-align: center;
+                padding-bottom: 60px;
+                p {
+                    padding: 0 0 40px 0;
+                    width: 100%;
+                }
+                .border_team {
+                    left: 43%;
+                }
+            }
+            .team_container {
+                display: block;
+                .team_left {
+                    padding-bottom: 35px;
+                    margin: 0 auto;
+                    .banner_team {
+                        max-width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .team_right {
+                    text-align: center;
+                    .team_right_info {
+                        padding: 0 0 40px 0;
+                    }
+                    .team_menu {
+                        padding: 0 0 30px 0;
+                        ul {
+                            li {
+                                a {
+                                    font-size: $text_media_L;
+                                }
+                            }
+                            justify-content: center;
+                            padding: 0 0 0 10px;
+                        }
+                    }
+                    .photo {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .photo_wrapper {
+                            max-width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:$width_mobile) {
+    .team {
+        padding-bottom: 70px;
+        .container {
+            .team_info {
+                padding-bottom: 60px;
+                h3 {
+                    font-size: $text_media_mobile_third;
+                    line-height: $height_mobile;
+                }
+                p {
+                    font-size: $text_media_mobile_second;
+                    line-height: $height_mobile;
+                    width: 100%;
+                }
+                .border_team {
+                    width: 17%;
+                    left: 41%;
+                }
+            }
+            .team_container {
+                .team_left {
+                    max-width: 40%;
+                    padding: 0 0 50px 0;
+                    margin-left: 78px;
+                    .banner_team {
+                        img {
+                            width: 150%;
+                        }
+                    }
+                }
+                .team_right {
+                    .team_right_info {
+                        h3 {
+                            font-size: $text_media_mobile_third;
+                            line-height: $height_mobile;
+                            padding-bottom: 30px;
+                        }
+                        p {
+                            font-size: $text_media_mobile_second;
+                            line-height: $height_mobile;
+                        }
+                    }
+                    .photo {
+                        display: flex;
+                        flex-wrap: wrap;
+                        max-width: 100%;
+                        .photo_wrapper {
+                            max-width: 50%;
+                            img {
+                                padding: 10px 5px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .team_menu {
+                        padding: 0 0 52px 0;
+                        ul {
+                            li {
+                                &:last-child {
+                                    padding-right: 0;
+                                }
+                                padding-right: 10px;
+                            }
+                            a {
+                                font-size: $text_media_mobile_menu;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

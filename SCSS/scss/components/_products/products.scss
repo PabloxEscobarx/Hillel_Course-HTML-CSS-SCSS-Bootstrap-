@@ -1,0 +1,73 @@
+.products {
+    padding: 50px 0 130px 0;
+    .container {
+        .products_container {
+            position: relative;
+            .border {
+                position: absolute;
+                width: 12%;
+                left: 44%;
+                border-bottom: 2px solid $brd_color;
+            }
+            .products_info {
+                padding-bottom: 30px;
+                text-align: center;
+                h3 {
+                    margin: 0 auto;
+                    @extend %opacity;
+                    font-size: $text_size_XL;
+                    line-height: 1.2;
+                    font-weight: $weight_L;
+                    text-transform: uppercase;
+                    letter-spacing: 0.01em;
+                    @extend %main_color;
+                    padding-bottom: 35px;
+                }
+                p {
+                    margin: 0 auto;
+                    width: 43%;
+                    @extend %line;
+                    font-size: $text_size_M;
+                    font-weight: $weight_S;
+                    @extend %main_color;
+                    padding-bottom: 30px;
+                }
+            }
+            .products_menu {
+                padding: 90px 0 60px 0;
+                ul {
+                    @extend %display_center;
+                    li {
+                        padding-right: 60px;
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        a {
+                            @extend %opacity;
+                            font-size: $text_size_L;
+                            @extend %line;
+                            font-weight: $weight_M;
+                            text-transform: uppercase;
+                            letter-spacing: 0.01em;
+                            @extend %main_color;
+                            &:hover {
+                                color: #ff2d2d;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .products_images {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                max-width: calc(100%/4);
+                padding: 0 10px 20px 10px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

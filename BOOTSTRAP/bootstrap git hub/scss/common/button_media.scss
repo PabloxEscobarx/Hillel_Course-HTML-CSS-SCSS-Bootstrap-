@@ -1,0 +1,28 @@
+@media(max-width:990px) {
+    .unlimited_features {
+        form {
+            button {
+                width: 50%;
+            }
+        }
+    }
+    .inuqie {
+        form {
+            button {
+                margin-top: 20px;
+                width: 75%;
+            }
+        }
+    }
+}
+
+@media(max-width:1200px) {
+    .inuqie {
+        form {
+            button {
+                margin-top: 20px;
+                width: 75%;
+            }
+        }
+    }
+}

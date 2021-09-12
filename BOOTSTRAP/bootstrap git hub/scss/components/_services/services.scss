@@ -1,0 +1,51 @@
+.services {
+    padding: 80px 0;
+    .container {
+        .row {
+            .top_title {
+                h2 {
+                    color: #383838;
+                }
+            }
+            .service {
+                margin-bottom: 35px;
+                &:hover {
+                    .pc,
+                    .puzzle,
+                    .support {
+                        background-color: #00a99d;
+                    }
+                    button {
+                        background-color: #00a99d;
+                        color: #ffffff;
+                    }
+                }
+                h2 {
+                    font-size: var(--fz-s);
+                    line-height: 1.2;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: #606060;
+                }
+                p {
+                    font-size: var(--fz-s);
+                    line-height: 24px;
+                    font-weight: 500;
+                    color: #7a7a7a;
+                }
+                .pc,
+                .puzzle,
+                .support {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 100px;
+                    margin: 0 auto;
+                    width: 100px;
+                    height: 100px;
+                    background-color: #383838;
+                }
+            }
+        }
+    }
+}

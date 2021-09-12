@@ -1,0 +1,16 @@
+:root {
+    /* text size */
+    --text_xs: 14px;
+    --text_s: 15px;
+    --text_m: 20px;
+    --text_button: 22px;
+    --text_l: 26px;
+    --text_xl: 42px;
+    /* text color */
+    --menu_color: #6c6c6c;
+    --banner_color: #ffffff;
+    --services_color: #5094f2;
+    --services_color_second: #909090;
+    --shoping_color: #6f7173;
+    --shoping_color_second: #909090;
+}
